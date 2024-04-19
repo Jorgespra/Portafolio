@@ -1,0 +1,134 @@
+ .experience{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+  }
+
+  .experience__section__title{
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+    font-weight: bold;
+    justify-content: center;
+    font-size: xx-large;
+    padding-bottom: 52px;
+ 
+ }
+ 
+ .experience__description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 5px;
+    align-items: center;  
+    border-color: #000;
+     border-style: solid;
+ }
+
+ 
+ .experience__img{
+     display: flex;
+     border-style: solid;
+ }
+ 
+ 
+ .experiencie__box{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    gap: 0px 8px;
+     flex-wrap: wrap;
+     align-items: center;
+     padding-bottom: 95px;
+ }
+ 
+ .experience__img{
+     display: flex;
+     width: 350px;
+  
+     
+ }
+ .experience__info-container{
+     display: flex;
+     justify-content: center; 
+   
+ }
+ 
+ .experience__title{
+     display: flex;
+     font-size: x-large;
+ }
+ .experience__text{
+     display: flex;
+     font-weight: 100;
+     padding-bottom: 15px;
+ }  
+ 
+ 
+ .experiencia__botao--repo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background-color:  rgb(225, 224, 224);
+    color: blue;
+    border-color: black;
+    width: 150px;
+    height: 60px;
+    font-size: large;
+    border-radius: 15px; 
+    cursor: pointer; 
+    transition: .5s;
+    font-weight: 800;
+ }
+ 
+ .experience__botao--demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background-color:  rgb(27, 66, 204);
+    color: rgb(225, 224, 224);
+    border-color: black;
+    width: 150px;
+    height: 60px;
+    cursor: pointer; 
+    transition: .5s;
+    font-size: large;
+    border-radius: 15px; 
+    font-weight: 800;
+ }
+ 
+ 
+
+ 
+/* Tamaño PC */
+
+@media (min-width:1020px){
+
+    .experience__img{
+        display: flex;
+        width: 700px;
+     
+        
+    }
+
+}
+
+
+
+/* Tamaño tablet */
+
+
+@media (min-width:685px){
+
+    .experience__img{
+        display: flex;
+        width: 620px;
+     
+        
+    }
+
+
+}

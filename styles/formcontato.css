@@ -1,0 +1,145 @@
+.formcontato{
+    display: flex;
+    padding: 5px 5px;    
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formcontato--esquerda{
+    display: none;
+}
+
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;    
+}
+
+.formcontato__title{
+    font-size: x-large;
+   
+   
+}
+
+.formcontato__subtext{
+    display: flex;
+    font-size: 18px; 
+    font-weight: lighter; 
+}
+      
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+
+}
+.formcontato__input{
+    display: flex;
+    font-size: large;
+    height: 70px;
+    margin-bottom: 7px;
+    border-color: #0303fc;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.formcontato__textarea{
+    display: flex;
+    flex-grow: 1;
+    justify-content: left;
+    font-size: x-large;
+    height: 130px;
+    margin-bottom: 8px;
+    border-color: #0303fc;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.formcontato__botao{
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 7px;
+    border-color: #0303fc;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+.footer{
+    border-color: #000;
+    border-style: solid;
+}
+
+
+
+/* Tamaño PC */
+
+@media (min-width:1020px){
+
+    .formcontato--esquerda{
+        display: flex;
+        padding: 25px 25px;
+        margin: 1%;
+        
+    }
+
+
+}
+
+/* Tamaño tablet */
+
+@media (min-width:685px){
+    
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+
+}
+.formcontato__input{
+    display: flex;
+    font-size: large;
+    height: 70px;
+    margin-bottom: 7px;
+    border-color: #0303fc;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.formcontato__textarea{
+    display: flex;
+    flex-grow: 1;
+    justify-content: left;
+    font-size: x-large;
+    height: 130px;
+    margin-bottom: 8px;
+    border-color: #0303fc;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.formcontato__botao{
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 7px;
+    border-color: #0303fc;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.formcontato__text{
+    width: 95%;
+}
+
+}
